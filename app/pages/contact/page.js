@@ -11,11 +11,11 @@ const Contact = () => {
                 <div class='flex w-full h-screen justify-center items-center'>
                     <div class='col-3' />
                     <div class='col-6'>
-                        <h1 class='mt-2 flex justify-center text-white'>Let's Get in Touch!</h1>
-                        <p class='font-semibold tracking-wider text-white text-lg mt-8'>Get In Touch
+                        <h1 class='flex justify-center font-[kepler] text-white mt-2'>Let's Get in Touch!</h1>
+                        <p class='font-[europa] text-white text-lg tracking-wider mt-8'>Get In Touch
                             I’m currently looking for Fullstack, Front-End and Back-End opportunities, my inbox is always open. I’ll get back to you as soon as possible!</p>
                         <div>
-                            <Link href='mailto:smith.carlicia@gmail.com' class='bg-[#bfaa8f] text-white rounded-md px-4 py-3 mt-6 flex justify-center no-underline'>
+                            <Link href='mailto:smith.carlicia@gmail.com' class='flex justify-center items-center bg-[#bfaa8f] no-underline font-[europa] text-white font-semibold text-lg rounded-md px-4 py-3 mt-10'>
                                 <button>Contact</button>
                             </Link>
                         </div>

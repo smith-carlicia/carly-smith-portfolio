@@ -13,7 +13,7 @@ const Portfolio = () => {
             <div class='row'>
                 <div class='col-3' />
                 <div class='col-6 space-y-4'>
-                    <h2 class='flex justify-center text-4xl text-[#2B2B2B] mt-8'>Portfolio</h2>
+                    <h2 class='flex justify-center font-[kepler] text-4xl font-bold text-[#2B2B2B] mt-8'>Portfolio</h2>
                     <ProjectCard
                         title='ISS Tracker'
                         img={ISS}

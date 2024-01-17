@@ -11,9 +11,9 @@ const About = () => {
                 <div class='flex justify-center items-center'>
                     <div class='col-3' />
                     <div class='col-6'>
-                        <h2 class='text-4xl font-bold font-sans text-[#2B2B2B] mt-8 mb-4'>About Me</h2>
+                        <h2 class='font-[kepler] text-4xl font-bold text-[#2B2B2B] mt-8 mb-4'>About Me</h2>
                         <div class='border-black rounded-sm'>
-                            <p className='font-sans text-xl tracking-wide text-[#2B2B2B]'>
+                            <p className='font-[europa] text-xl tracking-wide text-[#2B2B2B]'>
                                 Hi, it's nice to e-meet you! 👋🏽 My name is Carlicia but people call me Carly for short. I'm a Full Stack Web Developer based in Atlanta, GA. Within my experiences as a sales and marketing intern and tech consultant, I've been able to leverage my skills to go above and beyond in effectively collaborating to create the perfect user friendly web applications, softwares and technical documentations. A quick learner, I'm well organized and calm under pressure looking to offer my skills to an innovative team. In my spare time, I love to try new recipes, workout out 💪🏽, go on mini adventures with my daughter and travel through North GA(specifically the mountains).
                             </p>
                         </div>
@@ -25,22 +25,22 @@ const About = () => {
             <div class='row'>
                 <div class='col-3' />
                 <div class='col-6'>
-                    <h2 class='text-[#2B2B2B] font-sans mt-10'>SKILLS</h2>
-                    <h4 class='text-[#2B2B2B] font-sans mt-8'>KEY SKILLS</h4>
+                    <h2 class='font-[kepler] text-[#2B2B2B] mt-10'>SKILLS</h2>
+                    <h4 class='font-[kepler] text-[#2B2B2B] mt-8'>KEY SKILLS</h4>
                     <div class='flex items-start justify-start space-x-4'>
-                        <p class='text-white font-sans bg-[#2B2B2B] shadow-md shadow-gray-400 outline outline-[#545454] rounded-sm mt-3 p-1'>
+                        <p class='font-[europa] text-white bg-[#2B2B2B] shadow-md shadow-gray-400 outline outline-[#545454] rounded-sm mt-3 p-1'>
                             Full Stack Development
                         </p>
-                        <p class='text-white font-sans bg-[#2B2B2B] shadow-md shadow-gray-400  outline outline-[#545454] rounded-sm mt-3 p-1'>
+                        <p class='font-[europa] text-white bg-[#2B2B2B] shadow-md shadow-gray-400  outline outline-[#545454] rounded-sm mt-3 p-1'>
                             Front-end
                         </p>
-                        <p class='text-white font-sans bg-[#2B2B2B] shadow-md shadow-gray-400  outline outline-[#2B2B2B]  rounded-sm mt-3 p-1'>
+                        <p class='font-[europa] text-white bg-[#2B2B2B] shadow-md shadow-gray-400  outline outline-[#2B2B2B]  rounded-sm mt-3 p-1'>
                             Back-end
                         </p>
-                        <p class='text-white bg-[#2B2B2B] font-sans shadow-md shadow-gray-400 outline outline-[#2B2B2B]  rounded-sm mt-3 p-1'>
+                        <p class='font-[europa] text-white bg-[#2B2B2B] shadow-md shadow-gray-400 outline outline-[#2B2B2B]  rounded-sm mt-3 p-1'>
                             Programming
                         </p>
-                        <p class='text-white bg-[#2B2B2B] font-sans shadow-md shadow-gray-400 outline outline-[#2B2B2B]  rounded-sm mt-3 p-1'>
+                        <p class='font-[europa] text-white bg-[#2B2B2B] shadow-md shadow-gray-400 outline outline-[#2B2B2B]  rounded-sm mt-3 p-1'>
                             User Experience
                         </p>
                     </div>
@@ -51,27 +51,27 @@ const About = () => {
             <div class='row'>
                 <div class='col-3' />
                 <div class='col-6'>
-                    <h4 class='text-[#bfaa8f] font-sans mt-8'>TECHNICAL SKILLS</h4>
+                    <h4 class='font-[kepler] text-[#bfaa8f] mt-8'>TECHNICAL SKILLS</h4>
                     <div class='row'>
-                        <h5 class='text-[#2B2B2B] font-sans underline decoration-[#bfaa8f] mt-2'>Programming Languages:</h5>
+                        <h5 class='font-[kepler] text-[#2B2B2B] underline decoration-[#bfaa8f] mt-2'>Programming Languages:</h5>
                         <p class='flex items-start justify-start space-x-4 text-[#bfaa8f] font-sans text-xl mt-1'>
                             <SiHtml5 /> <SiCss3 /> <SiSass /> <SiJavascript /> <DiJava />
                         </p>
                     </div>
                     <div class='row'>
-                        <h5 class='text-[#2B2B2B] font-sans underline decoration-[#bfaa8f] mt-3'>Libraries and Frameworks:</h5>
+                        <h5 class='font-[kepler] text-[#2B2B2B] underline decoration-[#bfaa8f] mt-3'>Libraries and Frameworks:</h5>
                         <p class='flex items-start justify-start space-x-4 text-[#bfaa8f] text-xl font-sans mt-1'>
                             <SiTailwindcss /> <SiBootstrap /> <SiChakraui /> <SiJquery /> <SiNodedotjs /> <SiNextdotjs /> <SiReact /> <SiExpress /> <SiSpring /> <SiSpringboot />
                         </p>
                     </div>
                     <div class='row'>
-                        <h5 class='text-[#2B2B2B] font-sans underline decoration-[#bfaa8f] mt-3'>Databases:</h5>
+                        <h5 class='font-[kepler] text-[#2B2B2B] underline decoration-[#bfaa8f] mt-3'>Databases:</h5>
                         <p class='flex items-start justify-start space-x-4 text-[#bfaa8f] text-xl font-sans mt-1'>
                             <SiMysql /> <SiMongodb />
                         </p>
                     </div>
                     <div class='row'>
-                        <h5 class='text-[#2B2B2B] font-sans underline decoration-[#bfaa8f]'>Tools and Platforms:</h5>
+                        <h5 class='font-[kepler] text-[#2B2B2B] underline decoration-[#bfaa8f]'>Tools and Platforms:</h5>
                         <p class='flex items-start justify-start space-x-4 text-[#bfaa8f] text-xl font-sans mt-1 mb-16'>
                             <SiGit /> <SiGithub /> <SiGooglecloud /> <SiRabbitmq /> <SiApachekafka />
                         </p>

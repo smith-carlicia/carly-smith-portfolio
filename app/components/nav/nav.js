@@ -5,10 +5,10 @@ const Nav = () => {
 
   return (
       <nav className='bg-[#2B2B2B] pt-3'>
-        <div className="list-none flex flex-row items-end justify-content-start font-sans shadow-xl shadow-slate-950/50 z-[100]">
+        <div className="list-none flex flex-row items-end justify-content-start font-[europa] shadow-xl shadow-slate-950/50 z-[100]">
           <ul>
             <li>
-              <Link href="/" className='no-underline text-white ml-1 scroll={false}'>Carlicia Smith</Link>
+              <Link href="/" className=' italic font-semibold tracking-wide text-xl no-underline text-white ml-1 scroll={false}'>Carlicia Smith</Link>
             </li>
           </ul>
           <ul>
