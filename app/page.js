@@ -7,21 +7,6 @@ export default function Home() {
   return (
     <div id='home' className='bg-[#2B2B2B] w-full h-screen'>
       <div className='max-w-[1240px] w-full h-full mx-auto flex justify-center items-center text-center'>
-        {/* <div class='row'>
-          <div class='col-2' />
-          <div class='col-10'>
-            <picture>
-              <Image
-                class="img-fluid rounded-full shadow-xl z-[100] shadow-slate-950/50"
-                height={300}
-                width={300}
-                src={Profile}
-              />
-            </picture>
-          </div>
-          <div class='col-2' />
-        </div> */}
-
         <div class='row'>
           <div class='col-3'>
             <picture>
@@ -33,7 +18,6 @@ export default function Home() {
               />
             </picture>
           </div>
-
           <div class='col-8'>
             <p className='text-[#bfaa8f] font-[kepler] font-semibold text-6xl'>Carlicia Smith</p>
             <h2 className="text-4xl text-white font-[kepler] font-semibold mt-2 tracking-widest">
