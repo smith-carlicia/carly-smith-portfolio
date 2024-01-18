@@ -15,6 +15,7 @@ export default function Home() {
                 height={300}
                 width={300}
                 src={Profile}
+                alt="picture of developer"
               />
             </picture>
           </div>

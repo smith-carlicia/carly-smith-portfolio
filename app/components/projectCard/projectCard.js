@@ -1,11 +1,11 @@
 import Link from 'next/link';
 import Image from "next/image";
 
-const ProjectCard = ({ title, img, proUrl, description }) => {
+const ProjectCard = ({ title, img, proUrl, description, info }) => {
     return (
         <div class="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-sm group hover:bg-[#bfaa8f] mb-4">
             <div class="hover:mix-blend-overlay">
-                <Image src={img} class="mt-3 rounded-sm group-hover:opacity-10" />
+                <Image src={img} class="mt-3 rounded-sm group-hover:opacity-10" alt={info}/>
                 <div class=" place-self-auto hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] mt-4">
                     <h3 class='font-[kepler] text-white text-center'>{title}</h3>
                     <p class="font-[europa] text-white items-center justify-center tracking-widest">{description}</p>
